@@ -70,10 +70,10 @@ i++;
 
 echo(lld);
 
-int_dig="1.6";
-flt_dig=".2";
-str_wch="10.3";
-echo("\r\n",lld," ",123," abcdef ","\r\n");
+int_spec="1.6d";
+flt_spec=".2f";
+//str_spec="10.3s";
+echo("\r\n",lld," ",123," abcdef ",argv[0],"\r\n");
 
 return 0;
 
